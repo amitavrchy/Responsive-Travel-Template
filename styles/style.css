@@ -1,0 +1,214 @@
+/* Universal Styles */
+:root {
+    --primary-color: #FF5400;
+    --default-color: #131318;
+    --dark02: #424247;  
+}
+body {
+    font-family: 'Mulish', sans-serif;
+}
+.container {
+    max-width: 1150px;
+    height: 100%;
+    margin: auto;
+}
+.blur {
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.5);
+}
+.button {
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* Header Parts Starts Here */
+.header .container {
+    display: flex;
+    align-items: center;
+}
+.header .logo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.header .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.header .logo h1 {
+    font-size: 36px;
+    color: var(--default-color);
+}
+.header .logo span {
+    color: var(--primary-color);
+}
+.container .nav {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    gap: 20px;
+}
+.header .nav a {
+    text-decoration: none;
+    color: var(--dark02);
+}
+.container .nav a:hover {
+    color: var(--primary-color);
+    transition: 0.5s;
+}
+.mobile-menu-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: none;
+}
+.mobile-menu-icon img {
+    width: 100%;
+    height: 100%;
+}
+.mobile-menu {
+    display: none;
+}
+.mobile-menu .nav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+.mobile-menu .nav a {
+    background-color: var(--primary-color);
+    padding: 10px;
+    width: 100%;
+    color: white;
+    margin-bottom: 10px;
+}
+/* Header Ends */
+
+/* Banner parts starts here */
+.banner {
+    height: 500px;
+    margin-top: 20px;
+}
+.banner .container {
+    height: 100%;
+    background-image: url('../resources/images/banner-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px 15px 15px 0px;
+}
+.banner .mid {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner .banner-content {
+    color: white;
+}
+.banner-content h2 {
+    font-size: 64px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.banner-content p {
+    font-size: 16px;
+}
+.banner .input-box {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+.banner .input-box input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: var(--dark02);
+    border-radius: 5px;
+}
+.banner .input-box select {
+    padding: 11px;
+    border: none;
+    outline: none;
+    color: var(--dark02);
+    border-radius: 5px;
+}
+.banner select img {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.banner button {
+    padding: 9px 20px;
+}
+.banner button i {
+    font-size: 14px;
+}
+/* Banner Part Ends */
+
+/* Popular Tours */
+.popular-tours {
+    margin-top: 70px;
+}
+.popular-tours .container {
+    display: flex;
+    gap: 30px;
+    height: 500px;
+}
+.popular-tours .tour-content {
+    width: 60%;
+    height: 100%;
+}
+.popular-tours h3 {
+    font-size: 40px;
+    color: var(--default-color);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.popular-tours p {
+    font-size: 16px;
+    color: var(--dark02);
+    margin: 20px 0px;
+}
+.popular-tours ul li {
+    font-size: 16px;
+    color: var(--dark02);
+    margin-bottom: 10px;
+}
+.popular-tours .button {
+    padding: 10px 20px;
+}
+.popular-tours .tour-image {
+    width: 40%;
+    height: 100%;
+}
+.popular-tours .tour-image img {
+    width: 100%;
+    height: 100%;
+}
+/* Popular Tours Ends */
+
+/* Destination Starts */
+.destination .container{
+    margin-top: 100px;
+}
+.section-header {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.section-header h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--default-color);
+}
