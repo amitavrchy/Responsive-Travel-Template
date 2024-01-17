@@ -543,6 +543,13 @@ footer p {
 footer .social {
     width: 180px;
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.social img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
 }
 footer hr {
     border: none;
