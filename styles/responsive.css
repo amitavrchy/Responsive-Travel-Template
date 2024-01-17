@@ -1,0 +1,128 @@
+@media screen and (max-width: 600px){
+    body {
+        max-width: 600px;
+    }
+    .container {
+        max-width: 540px;
+    }
+    .section-header h2 {
+        font-size: 24px;
+    }
+    .section-header p {
+        font-size: 16px;
+    }
+    .header .logo img {
+        width: 30px;
+        height: 30px;
+    }
+    .header .logo h1 {
+        font-size: 26px;
+    }
+    .desktop-menu {
+        display: none !important;
+    }
+    .mobile-menu-icon {
+        display: block;
+        
+    }
+    .header .container {
+        justify-content: space-between;
+    }
+    /* Banner */
+    .banner {
+        height: 500px;
+    }
+    .banner h2 {
+        font-size: 26px;
+    }
+    .banner p {
+        font-size: 16px;
+    }
+    .banner .input-box {
+        flex-direction: column;
+    }
+    .banner .input-box input {
+        width: 400px;
+    }
+    /* Popular Tours */
+    .popular-tours {
+        height: auto;
+    }
+    .popular-tours .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .popular-tours .tour-content {
+        width: 100%;
+    }
+    .popular-tours .tour-content h3 {
+        font-size: 24px;
+    }
+    .popular-tours .tour-content p {
+        font-size: 16px;
+    }
+    .popular-tours .tour-image {
+        width: 100%;
+        height: 350px;
+    }
+
+    /* Destination */
+    .destination {
+        height: auto;
+    }
+    .destination .container {
+        height: auto;
+    }
+    .destination .first-row {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .destination .second-row {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .destination .third-row {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .choose {
+        height: auto;
+    }
+    .choose-cards .row-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .choose-cards .card-3 {
+        width: 100% !important;
+    }
+    .testimonial {
+        height: auto;
+    }
+    .testimonial-content p {
+        text-align: center;
+    }
+    .contact {
+        height: auto;
+    }
+    .contact .container {
+        flex-direction: column;
+    }
+    .contact .form {
+        width: 100%;
+    }
+    .contact .poster {
+        width: 100%;
+    }
+    .poster .save-box {
+        left: 200px;
+    }
+    footer {
+        margin-top: 0px;
+    }
+    footer .logo {
+        margin-left: 40px;
+    }
+    footer .logo img {
+        width: 30px;
+        height: 30px;
+    }
+    footer .logo h1 {
+        font-size: 20px;
+    }
+}
